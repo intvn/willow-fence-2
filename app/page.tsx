@@ -1,6 +1,6 @@
 // pages/hello.js
 
-import Header from '../components/header'
+import Header from "../components/header"
 
 export default function Home() {
   return (
