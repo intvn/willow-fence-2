@@ -3,31 +3,21 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <header className="bg-offWhite text-darkGrey p-4 shadow-md bottom-0 left-0 w-full z-50">
-      <div className="container mx-auto flex justify-between items-center">
-        <Link href="/" className="text-xl font-bold hover:underline">Suffolk Willow</Link>
-        <nav>
-          <ul className="flex space-x-4">
-            <li>
-              <Link href="/" className="hover:underline">Home</Link>
-            </li>
-            <li>
-              <Link href="/aboutUs" className="hover:underline">About</Link>
-            </li>
-            <li>
-              <Link href="/contactUs" className="hover:underline">Contact</Link>
-            </li>
-            <li>
-              <Link href="/portfolio" className="hover:underline">Portfolio</Link>
-            </li>
-            <li>
-              <Link href="/reviews" className="hover:underline">Reviews</Link>
-            </li>
-            <li>
-              <Link href="/instagram" className="hover:underline">Instagram</Link>
-            </li>
-          </ul>
-        </nav>
+    <header className="bg-offWhite text-darkGrey p-10 bottom-0 left-0 w-full z-50 border-t border-darkGrey">
+      <div className="container mx-auto flex justify-between items-center w-3/4">
+        <div className="grid grid-cols-[auto_1fr] grid-cols-2 gap-y-4 gap-x-4 items-center">
+            <div><img className="h-5 w-auto" src="/assets/periscope-logo.png" /></div>
+            <div><p>Location</p></div>
+            <div><img className="h-5 w-auto" src="/assets/telegram-logo.png" /></div>
+            <div><p>Email</p></div>
+            <div><img className="h-5 w-auto" src="/assets/instagram-logo.png" /></div>
+            <div><p>@suffolkwillow</p></div>
+        </div>
+
+        <div className="w-1/2">
+            <h1 className="text-lg font-bold">About Suffolk Willow</h1>
+            <p className="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nunc velit, semper vitae ornare non, imperdiet in velit. Donec ullamcorper justo ex, at vehicula ante aliquet eu. Aenean et nibh in lacus auctor rutrum. Fusce sit amet lorem tincidunt erat auctor mattis vel at mi. Phasellus interdum sagittis enim.</p>
+        </div>
       </div>
     </header>
   );
