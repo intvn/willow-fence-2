@@ -8,9 +8,7 @@ const Footer = () => {
         <Link href="/" className="text-xl font-bold hover:underline">Suffolk Willow</Link>
         <nav>
           <ul className="flex space-x-4">
-            <li>
-              <Link href="/" className="hover:underline">Home</Link>
-            </li>
+
             <li>
               <Link href="/aboutUs" className="hover:underline">About</Link>
             </li>
