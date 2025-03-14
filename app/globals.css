@@ -11,11 +11,15 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --darkGreen: rgb(105, 123, 91);
+    --lightGreen: rgb(162, 191, 140);
+    --darkGrey: rgb(30, 29, 29);
+    --offWhite: rgb(247, 245, 241);
   }
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  color: var(--darkGrey);
+  background: var(--offWhite);
   font-family: Arial, Helvetica, sans-serif;
 }
