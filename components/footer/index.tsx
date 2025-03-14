@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <header className="bg-blue-600 text-white p-4 shadow-md bottom-0 left-0 w-full z-50">
+    <header className="bg-offWhite text-darkGrey p-4 shadow-md bottom-0 left-0 w-full z-50">
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/" className="text-xl font-bold hover:underline">Suffolk Willow</Link>
         <nav>
