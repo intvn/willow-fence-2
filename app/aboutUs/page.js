@@ -1,5 +1,7 @@
 import React from "react";
 import Header from "../../components/header"
+import Footer from "../../components/footer"
+
 
 export default function ContactUs() {
   return (
@@ -8,6 +10,7 @@ export default function ContactUs() {
         <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh" }}>
             <h1>About Us</h1>
         </div>
+        <Footer/>
     </div>
     
   );
