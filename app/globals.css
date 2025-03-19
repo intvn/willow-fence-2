@@ -25,5 +25,20 @@
 body {
   color: var(--darkGrey);
   background: var(--offWhite);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
+
+@font-face {
+  font-family: "MonumentRegular";
+  src: url("../public/fonts/MonumentExtended-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MonumentUltrabold";
+  src: url("../public/fonts/MonumentExtended-Ultrabold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+

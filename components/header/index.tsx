@@ -3,9 +3,9 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <header className="bg-darkGreen text-white p-4 shadow-md fixed top-0 left-0 w-full z-50">
-      <div className="container mx-auto flex justify-between items-center">
-        <Link href="/" className="text-xl font-bold hover:underline">Suffolk Willow</Link>
+    <header className="bg-darkGreen text-white p-4 fixed top-0 left-0 w-full z-50 rounded-b-3xl">
+      <div className="flex justify-between items-center w-full px-6">
+        <Link href="/" className="text-xl font-bold font-monumentReg hover:underline uppercase">Suffolk Willow</Link>
         <nav>
           <ul className="flex space-x-4">
             <li>
