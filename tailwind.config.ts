@@ -16,6 +16,11 @@ const config: Config = {
         darkGrey: "var(--darkGrey)",
         offWhite: "var(--offWhite)"
       },
+      fontFamily: {
+        monumentReg: ["MonumentRegular", "sans-serif"],
+        monumentUltra: ["MonumentUltrabold", "sans-serif"],
+        sans: ['Helvetica', 'Arial', 'sans-serif'],
+      },
     },
   },
   plugins: [],
