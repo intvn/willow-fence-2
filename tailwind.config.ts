@@ -14,6 +14,7 @@ const config: Config = {
         darkGreen: "var(--darkGreen)",
         lightGreen: "var(--lightGreen)",
         darkGrey: "var(--darkGrey)",
+        lightGrey: "var(--lightGrey)",
         offWhite: "var(--offWhite)"
       },
       fontFamily: {

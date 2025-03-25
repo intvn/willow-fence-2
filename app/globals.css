@@ -8,6 +8,7 @@
   --darkGreen: rgb(105, 123, 91);
   --lightGreen: rgb(162, 191, 140);
   --darkGrey: rgb(30, 29, 29);
+  --lightGrey: rgb(214, 214, 214);
   --offWhite: rgb(247, 245, 241);
 }
 
@@ -18,6 +19,7 @@
     --darkGreen: rgb(105, 123, 91);
     --lightGreen: rgb(162, 191, 140);
     --darkGrey: rgb(30, 29, 29);
+    --lightGrey: rgb(214, 214, 214);
     --offWhite: rgb(247, 245, 241);
   }
 }
