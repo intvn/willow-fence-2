@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="bg-darkGreen text-white p-4 fixed top-0 left-0 w-full z-50 rounded-b-3xl">
       <div className="flex justify-between items-center w-full px-6">
-        <Link href="/" className="text-xl font-bold font-monumentReg hover:underline uppercase">Suffolk Willow</Link>
+        <Link href="/" className="text-xl font-monumentUltra hover:underline uppercase">Suffolk Willow</Link>
         <nav>
           <ul className="flex space-x-4">
             <li>
