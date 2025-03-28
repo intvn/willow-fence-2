@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-lightGreen text-darkGrey p-10 px-12 bottom-0 mx-auto mb-4 w-[calc(100%-2rem)] z-50 border border-lightGrey rounded-3xl">
+    <footer className="bg-gradient-to-br from-lightGreen to-darkGreen text-darkGrey p-10 px-12 bottom-0 mx-auto mb-4 w-[calc(100%-2rem)] z-50 border border-lightGrey rounded-3xl">
       <div className="flex justify-between flex-col mx-auto p-6">
 
         <div className="text-lg mb-8">Contact</div>
