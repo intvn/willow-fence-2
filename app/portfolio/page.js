@@ -11,8 +11,8 @@ export default function ContactUs() {
             <h1 className="font-monumentReg text-5xl text-offWhite">Have a look at our work.</h1>
         </div>
 
-        <div>
-          
+        <div className="flex justify-center items-center h-screen">
+        <img className="w-auto hover:drop-shadow-2xl" src="/assets/instagram-logo.png" />
         </div>
 
         <Footer/>
